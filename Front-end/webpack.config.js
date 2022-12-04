@@ -78,7 +78,7 @@ module.exports = {
     historyApiFallback: true,
     proxy: {
       '/api': {
-        target: 'http://localhost:3000/',
+        target: 'https://mango-ms3e.onrender.com',
       },
     },
   },

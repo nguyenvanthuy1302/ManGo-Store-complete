@@ -1,10 +1,10 @@
 {
-  "name": "ttb-store",
+  "name": "mango-store",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --open --port 8080",
+    "start": "webpack-dev-server ",
     "watch": "webpack --config webpack.config.js --env.mode=development --port 8080 --watch",
     "build": "webpack --config webpack.config.js --env.mode=production",
     "dev": "webpack --config webpack.config.js --env.mode=development"
