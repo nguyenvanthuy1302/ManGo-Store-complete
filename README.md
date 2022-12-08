@@ -52,6 +52,6 @@
   ```
 - ## 🌍 **Document API**
   `> browser: http://localhost:3000/api-docs/`
-  mongodb://localhost/ttb-store
+  mongodb://localhost/ManGo-store
 
 # ManGo-Store-complete
