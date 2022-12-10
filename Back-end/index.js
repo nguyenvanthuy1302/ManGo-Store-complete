@@ -26,7 +26,7 @@ const statisticApi = require('./src/apis/statistic.api');
 // ! ================== set port ================== //
 const app = express();
 const normalizePort = (port) => parseInt(port, 10);
-const PORT = normalizePort(process.env.PORT || 10000);
+const PORT = normalizePort(process.env.PORT || 3000);
 
 // ! ================== setup ================== //
 app.use(express.static(path.join(__dirname, '/src/build')));
