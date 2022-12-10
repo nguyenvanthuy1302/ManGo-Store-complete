@@ -74,6 +74,7 @@ module.exports = {
   devtool: 'inline-source-map',
   //proxy
   devServer: {
+    disableHostCheck: true,
     //fix can not get /url React-Router
     historyApiFallback: true,
     proxy: {
